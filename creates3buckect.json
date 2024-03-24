@@ -1,0 +1,18 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Resources": {
+    "DemoS3Bucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "sijose2786",
+        "AccessControl": "Private",
+        "Tags": [
+          {
+            "Key": "OU",
+            "Value": "DEV"
+          }
+        ]
+      }
+    }
+  }
+}
