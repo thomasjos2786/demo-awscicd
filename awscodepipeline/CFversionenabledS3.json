@@ -10,5 +10,13 @@
         }
       }
     }
-  }   
+  },
+  "Outputs": {
+        "BucketName": {
+            "Value": {
+                "Ref": "MyS3Bucket"
+            },
+            "Description": "Name of the sample Amazon S3 bucket created."
+        }
+    }
 }
