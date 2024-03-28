@@ -6,7 +6,7 @@
       "Properties": {
         "BucketName": "my-sijose-bucket",
         "VersioningConfiguration": {
-          "Status": "Enabled"
+          "Status": "Disabled"
         }
       }
     }
